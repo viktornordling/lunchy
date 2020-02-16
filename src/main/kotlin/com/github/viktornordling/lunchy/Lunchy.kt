@@ -10,6 +10,6 @@ class LunchyClient: CliktCommand(name = "lunchy") {
 object Lunchy {
     @JvmStatic
     fun main(args: Array<String>) = LunchyClient()
-            .subcommands(Order())
+            .subcommands(Order(), Analyze())
             .main(args)
 }

@@ -6,3 +6,8 @@ out/
 # Ignore Gradle build output directory
 build
 config.yaml
+.idea
+*.txt
+*.iml
+*.ipr
+*.iws
